@@ -68,7 +68,7 @@ process_auc_sim <- function(f='myoutput.rds') {
   return(ans)
 }
 
-d <- process_auc_sim('input.rds')
+d <- process_auc_sim('input.rds') # Created via run_and_store_simulation() in functions.R
 
 # Convert columns to numeric where applicable
 data <- d %>%
@@ -92,7 +92,6 @@ data_filtered <- data %>%
 
 abroca_values <- data_filtered$abroca
 
-# Required libraries
 library(MASS)
 library(ggplot2)
 library(gridExtra)
