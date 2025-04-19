@@ -2,9 +2,7 @@
 
 Supplementary repository for the EDM '25 short paper:
 
-```
 Borchers, C. (2025) Toward Sufficient Statistical Power in Algorithmic Bias Assessment: A Test for ABROCA. Proceedings of the 18th International Conference on Educational Data Mining (EDM). Palermo, Italy.
-```
 
 ```bibtex
 @inproceedings{borchers2025power,
